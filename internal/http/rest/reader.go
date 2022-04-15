@@ -24,8 +24,8 @@ func NewHandler(s reader.RssReaderService) *handler {
 }
 
 type ParseUrlResponse struct {
-	Items []rdrpkg.RssItem `json:"Items"`
-	Error string           `json:"Error"`
+	Items []rdrpkg.RssItem `json:"items"`
+	Error string           `json:"error"`
 }
 
 // ParseURLs is decoding array of strings containing URLs
